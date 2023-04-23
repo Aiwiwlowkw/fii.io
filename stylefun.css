@@ -1,0 +1,59 @@
+/* Estilos para el cuerpo de la página */
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #773f3f;
+	color: #444444;
+	margin: 0;
+	padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+	background-color: #FFFFFF;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+	padding: 0px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header img {
+	height: 50px;
+}
+
+header nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+header nav ul li {
+	margin-left: 20px;
+}
+
+header nav ul li a {
+	color: #444444;
+	text-decoration: none;
+	font-size: 26px;
+	font-weight: bold;
+	transition: all 0.3s ease;
+}
+
+header nav ul li a:hover {
+	color: #0077CC;
+}
+
+/* Estilos para el contenido */
+main {
+	margin-top: 80px;
+	padding: 42px;
+	display: flex;
+	flex-wrap: wrap;
+}
+

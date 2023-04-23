@@ -1,0 +1,20 @@
+/* Estilos para el contenedor principal */
+.container {
+    display: flex; /* Utiliza el modelo de caja flexible */
+    align-items: center; /* Alinear verticalmente */
+}
+
+/* Estilos para el logotipo */
+.logo {
+    width: 185px; /* Ajusta el ancho a tu necesidad */
+    height: auto; /* Para mantener la proporción */
+    margin-right: 10px; /* Margen derecho para separar del menú de navegación */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    /* Add more styles as needed */
+}

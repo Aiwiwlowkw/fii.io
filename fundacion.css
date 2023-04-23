@@ -1,0 +1,55 @@
+/* Reset de estilos por defecto del navegador */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo de fondo para el cuerpo de la página */
+body {
+    background-color: #9d5454;
+    font-family: Arial, sans-serif;
+    color: rgb(18, 17, 17);
+}
+
+/* Estilo para el encabezado (header) */
+header {
+    background-color: #ffffff;
+    padding: 15px;
+    color: #fff;
+}
+
+/* Estilo para los enlaces del menú de navegación */
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px;
+}
+
+/* Estilo para los enlaces visitados del menú de navegación */
+nav ul li a:visited {
+    color: #fff;
+}
+
+/* Estilo para los enlaces activos del menú de navegación */
+nav ul li a:hover,
+nav ul li a:focus {
+    background-color: #0056b3;
+}
+
+/* Estilo para las secciones de contenido */
+section {
+    padding: 40px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+/* Estilo para los títulos de sección */
+h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+/* Estilo para los párrafos de contenido */
+p {
+    margin-bottom: 10px;
+}

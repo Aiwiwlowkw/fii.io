@@ -1,0 +1,12 @@
+h1 {
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to right, rgb(174, 120, 28), rgb(61, 61, 129),rgb(178, 61, 61)
+    );
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
